@@ -1,3 +1,20 @@
+## 📥・v2.2.0 (06.12.2025)
+
+### ⚡ Performance
+1. Optimized code with arrow functions and `for...of` loops.
+2. Refactored Promise handling in `getContent()`.
+3. Added `getRandomElement()` helper function.
+
+### ✨ Changes
+1. Updated to `node:https` protocol.
+2. Improved error handling and JSON parsing.
+3. Rewritten TypeScript definitions with proper CommonJS export structure.
+4. Code quality improvements.
+
+### 🧪 Testing
+1. Added Jest test suite with 28 tests.
+
+
 ## 📥・v2.1.0 (20.12.2023)
 
 ### 🎉 Added

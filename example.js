@@ -1,4 +1,4 @@
-const random = require('../index.js'); // Change to @sefinek/random-emoji
+const random = require('./index.js'); // Change to @sefinek/random-emoji
 
 // Get a single random Unicode emoji.
 console.log(`Single Emoji     : ${random.unicode()}`);

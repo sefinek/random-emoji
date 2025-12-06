@@ -33,7 +33,6 @@
   "main": "index.js",
   "types": "index.d.ts",
   "directories": {
-    "example": "examples",
     "test": "test"
   },
   "files": [
@@ -41,6 +40,7 @@
     "examples",
     "AUTHORS",
     "CHANGELOG.md",
+    "example.js",
     "index.d.ts",
     "index.js",
     "LICENSE",
