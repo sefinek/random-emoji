@@ -9,21 +9,17 @@ const emojis = {
 	unicode: require('./data/emoji/collection/single.json'),
 };
 const endpoints = require('./data/endpoints.json');
-const { version } = require('./package.json');
+const { name, version, devDependencies } = require('./package.json');
 
 const httpOptions = {
 	method: 'GET',
 	headers: {
-		'User-Agent': `Mozilla/5.0 (compatible; random-emoji/${version}; +https://github.com/sefinek24/random-emoji)`,
+		'User-Agent': `${name}/${version} (+https://github.com/sefinek/geoip2-api)${process.env.JEST_WORKER_ID ? ` jest/${devDependencies.jest.replace(/^[^0-9]*/, '')}` : ''}`,
 		'Accept': 'application/json',
+		'Content-Type': 'application/json',
 		'Cache-Control': 'no-cache',
 		'Connection': 'keep-alive',
 		'DNT': '1',
-		'Pragma': 'no-cache',
-		'Referrer-Policy': 'strict-origin-when-cross-origin',
-		'X-Content-Type-Options': 'nosniff',
-		'X-Frame-Options': 'DENY',
-		'X-XSS-Protection': '1; mode=block',
 	},
 };
 
