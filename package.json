@@ -29,10 +29,25 @@
   },
   "license": "MIT",
   "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "type": "commonjs",
   "main": "index.js",
   "types": "index.d.ts",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "files": [
+    "data",
+    "examples",
+    "AUTHORS",
+    "CHANGELOG.md",
+    "index.d.ts",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
-    "test": "node examples/main.js",
+    "test": "jest test",
     "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "devDependencies": {
