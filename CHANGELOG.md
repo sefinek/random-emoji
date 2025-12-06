@@ -19,13 +19,13 @@
 
 ### 🎉 Added
 1. New function `<random>.squares` for retrieving random squares.
-2. Added a new example ([examples/table.js](examples/table.js)) demonstrating the use of module functions in a table format.
+2. Added a new example ([examples/table.js](example/table.js)) demonstrating the use of module functions in a table format.
 
 ### ✨ Changes
 1. General code quality improvements.
 2. Enhanced type definitions in [`index.d.ts`](index.d.ts) and expanded documentation.
 3. Improved the emoji randomization mechanism.
-4. Updated example files in the [`examples`](examples) directory.
+4. Updated example files in the [`examples`](example) directory.
 
 
 ## 📥・v2.0.2/v2.0.3 (08.11.2023)

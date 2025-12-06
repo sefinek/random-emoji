@@ -10,6 +10,13 @@
     </a>
 </div>
 
+Do you have any questions or want to receive notifications about important changes or new features in my repositories?
+Join my [Discord server](https://discord.gg/S7NDzCzQTg)! If you don't use Discord, you can also open an issue on GitHub.
+
+The project is released under the [MIT license](LICENSE) — you can do whatever you want with it.  
+If you like this repository, leave a star ⭐. Thank you!
+
+
 ## 📥 • Installation
 ```bash
 npm install @sefinek/random-emoji
@@ -17,15 +24,16 @@ npm install @sefinek/random-emoji
 
 
 ## 😻 • Usage
-| Function                                                                                                        | Description                                                 |
-|-----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| [unicode](https://github.com/sefinek/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L4)  | Get a single emoji                                          |
-| [emojis](https://github.com/sefinek/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L7)   | Get a random emoji with its name and type                   |
-| [cats](https://github.com/sefinek/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L11)    | Get a random cat                                            |
-| [hearts](https://github.com/sefinek/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L14)  | Get a random heart                                          |
-| [foods](https://github.com/sefinek/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L18)   | Get a random food                                           |
-| [circles](https://github.com/sefinek/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L22) | Get a random circle                                         |
-| [**new** Kaomojis](#kaomoji-endpoints)                                                                          | Get random kaomojis from the [API](https://api.sefinek.net) |
+| Function                                                                    | Description                                                 |
+|-----------------------------------------------------------------------------|-------------------------------------------------------------|
+| [unicode](https://github.com/sefinek/random-emoji/blob/main/example.js#L4)  | Get a single emoji                                          |
+| [emojis](https://github.com/sefinek/random-emoji/blob/main/example.js#L7)   | Get a random emoji with its name and type                   |
+| [cats](https://github.com/sefinek/random-emoji/blob/main/example.js#L11)    | Get a random cat emoji                                      |
+| [hearts](https://github.com/sefinek/random-emoji/blob/main/example.js#L15)  | Get a random heart emoji                                    |
+| [foods](https://github.com/sefinek/random-emoji/blob/main/example.js#L19)   | Get a random food emoji                                     |
+| [circles](https://github.com/sefinek/random-emoji/blob/main/example.js#L23) | Get a random circle emoji                                   |
+| [squares](https://github.com/sefinek/random-emoji/blob/main/example.js#L27) | Get a random square emoji                                   |
+| [Kaomojis](#kaomoji-endpoints)                                              | Get random kaomojis from the [API](https://api.sefinek.net) |
 
 
 ## 😼 • Examples
@@ -95,18 +103,4 @@ kaomoji.uwu().then(console.log);
 
     
 ## 📝 • Changelog
-> [Click here](CHANGELOG.md)
-
-
-## 🤝 • Help
-Need assistance or have questions about this module? Don't hesitate to open a new [Issue](https://github.com/sefinek/random-emoji/issues/new) on our GitHub repository.
-Our community is ready to help and provide answers to your inquiries.
-  
-
-## ⭐ • Thank you
-If you use the Random Emoji module and appreciate my work, I'd be grateful if you could give it a star on our [GitHub page](https://github.com/sefinek/random-emoji).
-Your support helps me continue to develop this project and provide new and fun emojis to every user.
-
-
-## 🎓 • MIT License
-Copyright © 2023–2025 [Sefinek](https://sefinek.net)
+[Click here](CHANGELOG.md)
