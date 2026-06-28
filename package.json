@@ -1,6 +1,6 @@
 {
   "name": "@sefinek/random-emoji",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "A module offering a range of random emoticons, complete with their names and categories. Additionally, it also includes random kaomoji.",
   "keywords": [
     "random",

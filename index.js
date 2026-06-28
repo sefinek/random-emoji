@@ -16,14 +16,8 @@ const httpOptions = {
 	method: 'GET',
 	headers: {
 		'User-Agent': `${name}/${version} (+https://github.com/sefinek/geoip2-api)${process.env.JEST_WORKER_ID && devDependencies?.jest ? ` jest/${devDependencies.jest.replace(/^[^0-9]*/, '')}` : ''}`,
-		'Accept': 'application/json',
-		'Content-Type': 'application/json',
-		'Cache-Control': 'no-cache',
-		'Connection': 'keep-alive',
-		'DNT': '1',
 	},
 };
-
 
 const getContent = url => new Promise((resolve, reject) => {
 	const req = get(url, httpOptions, res => {
