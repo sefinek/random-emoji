@@ -51,9 +51,12 @@
     "test": "jest test"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "@jest/globals": "^30.2.0",
-    "globals": "^16.5.0",
-    "jest": "^30.2.0"
+    "@eslint/js": "^10.0.1",
+    "@jest/globals": "^30.4.1",
+    "globals": "^17.7.0",
+    "jest": "^30.4.2"
+  },
+  "allowScripts": {
+    "unrs-resolver@1.12.2": true
   }
 }
