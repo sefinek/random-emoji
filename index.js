@@ -10,12 +10,12 @@ const emojis = {
 	unicode: require('./data/emoji/collection/single.json'),
 };
 const endpoints = require('./data/endpoints.json');
-const { name, version } = require('./package.json');
+const { name, version, homepage } = require('./package.json');
 
 const httpOptions = {
 	method: 'GET',
 	headers: {
-		'User-Agent': `${name}/${version} (+https://github.com/sefinek/geoip2-api)${process.env.NODE_TEST_CONTEXT ? ` node-test/${process.versions.node}` : ''}`,
+		'User-Agent': `${name}/${version} (+${homepage})${process.env.NODE_TEST_CONTEXT ? ` node-test/${process.versions.node}` : ''}`,
 	},
 };
 
