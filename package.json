@@ -51,13 +51,13 @@
     "m": "ncu -u && npm install && npm update",
     "test": "node --test"
   },
+  "allowScripts": {
+    "unrs-resolver@1.12.2": true
+  },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.15.0",
     "globals": "^17.14.0"
-  },
-  "allowScripts": {
-    "unrs-resolver@1.12.2": true
   },
   "engines": {
     "node": ">=22.12.0"
