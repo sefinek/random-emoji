@@ -10,12 +10,12 @@ const emojis = {
 	unicode: require('./data/emoji/collection/single.json'),
 };
 const endpoints = require('./data/endpoints.json');
-const { name, version, devDependencies } = require('./package.json');
+const { name, version } = require('./package.json');
 
 const httpOptions = {
 	method: 'GET',
 	headers: {
-		'User-Agent': `${name}/${version} (+https://github.com/sefinek/geoip2-api)${process.env.JEST_WORKER_ID && devDependencies?.jest ? ` jest/${devDependencies.jest.replace(/^[^0-9]*/, '')}` : ''}`,
+		'User-Agent': `${name}/${version} (+https://github.com/sefinek/geoip2-api)${process.env.NODE_TEST_CONTEXT ? ` node-test/${process.versions.node}` : ''}`,
 	},
 };
 

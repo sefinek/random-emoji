@@ -47,16 +47,19 @@
     "README.md"
   ],
   "scripts": {
+    "lint": "eslint .",
     "m": "ncu -u && npm install && npm update",
-    "test": "jest test"
+    "test": "node --test"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@jest/globals": "^30.5.2",
-    "globals": "^17.14.0",
-    "jest": "^30.5.2"
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
   },
   "allowScripts": {
     "unrs-resolver@1.12.2": true
+  },
+  "engines": {
+    "node": ">=22.12.0"
   }
 }
